@@ -41,7 +41,7 @@
   @apply box-border;
 }
 body{
-  @apply font-montser overflow-hidden bg-stone-50;
+  @apply font-montser bg-stone-50;
 }
 .nav-link{
   @apply text-lg font-bold duration-300;
@@ -50,7 +50,7 @@ body{
   @apply text-green-500;
 }
 section{
-  @apply p-20 md:p-28;
+  @apply p-16 md:p-28;
 }
 h1{
   @apply text-xl md:text-4xl xl:text-5xl font-bold;

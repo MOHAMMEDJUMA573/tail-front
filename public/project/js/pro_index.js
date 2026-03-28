@@ -14,6 +14,15 @@ navLinks.forEach((link, index) =>{
         hamburger.classList.toggle("ri-close-large-line");
     })
 })
+/*for data urls */
+const login = document.getElementById("loginbutton");
+login.addEventListener("click", ()=> {
+    window.location.href = login.dataset.url;
+})
+const signin = document.getElementById("signupbutton");
+signin.addEventListener("click", ()=> {
+    window.location.href = signin.dataset.url
+})
 /*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
 
 
